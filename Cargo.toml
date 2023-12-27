@@ -1,0 +1,12 @@
+[package]
+name = "puzzle-cubes"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.3.19", features = ["derive"] }
+colored = "2.1.0"
+indicatif = { version = "0.17.7", features = ["rayon"] }
+rayon = "1.8.0"
